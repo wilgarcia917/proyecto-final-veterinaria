@@ -1,3 +1,7 @@
+CREATE DATABASE hospital;
+
+USE hospital;
+
 CREATE TABLE `medicos` (
   `cedula` int PRIMARY KEY,
   `nombres` varchar(50),
