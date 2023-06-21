@@ -45,8 +45,6 @@ router.post('/agregar', (req, res) =>{
 
 //Eliminar cita medica
 
-// Eliminar medicos
-
 router.get('/eliminar/:id', (req, res) => {
   const id = req.params.id;
   connection.query(`DELETE FROM cita_medica WHERE id=${id}`, (error, result) => {
