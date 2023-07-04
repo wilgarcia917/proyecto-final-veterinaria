@@ -6,7 +6,7 @@ CREATE TABLE `medicos` (
   `cedula` int PRIMARY KEY,
   `nombres` varchar(50),
   `apellidos` varchar(50),
-  `especidalidad` varchar(50),
+  `especialidad` varchar(50),
   `consultorio` char(3),
   `correo` varchar(50)
 );
